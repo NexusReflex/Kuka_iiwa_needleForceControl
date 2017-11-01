@@ -1,0 +1,8 @@
+prefix=/home/laura/ros_ws/devel/.private/iiwa_msgs
+
+Name: iiwa_msgs
+Description: Description of iiwa_msgs
+Version: 2.0.0
+Cflags: -I/home/laura/ros_ws/devel/.private/iiwa_msgs/include
+Libs: -L/home/laura/ros_ws/devel/.private/iiwa_msgs/lib 
+Requires: message_runtime std_msgs geometry_msgs

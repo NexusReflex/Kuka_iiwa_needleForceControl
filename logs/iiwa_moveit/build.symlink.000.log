@@ -1,0 +1,3 @@
+Symlinking /home/laura/ros_ws/devel/lib/pkgconfig/iiwa_moveit.pc
+Symlinking /home/laura/ros_ws/devel/share/iiwa_moveit/cmake/iiwa_moveitConfig.cmake
+Symlinking /home/laura/ros_ws/devel/share/iiwa_moveit/cmake/iiwa_moveitConfig-version.cmake

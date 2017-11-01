@@ -1,0 +1,4 @@
+iiwa_stack/iiwa_gazebo
+/home/laura/ros_ws/devel/.private/iiwa_gazebo/lib/pkgconfig/iiwa_gazebo.pc /home/laura/ros_ws/devel/lib/pkgconfig/iiwa_gazebo.pc
+/home/laura/ros_ws/devel/.private/iiwa_gazebo/share/iiwa_gazebo/cmake/iiwa_gazeboConfig.cmake /home/laura/ros_ws/devel/share/iiwa_gazebo/cmake/iiwa_gazeboConfig.cmake
+/home/laura/ros_ws/devel/.private/iiwa_gazebo/share/iiwa_gazebo/cmake/iiwa_gazeboConfig-version.cmake /home/laura/ros_ws/devel/share/iiwa_gazebo/cmake/iiwa_gazeboConfig-version.cmake

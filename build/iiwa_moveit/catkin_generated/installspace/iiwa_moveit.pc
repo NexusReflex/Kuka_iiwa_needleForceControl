@@ -1,0 +1,8 @@
+prefix=/home/laura/ros_ws/install
+
+Name: iiwa_moveit
+Description: Description of iiwa_moveit
+Version: 1.4.0
+Cflags: 
+Libs: -L/home/laura/ros_ws/install/lib 
+Requires: 
