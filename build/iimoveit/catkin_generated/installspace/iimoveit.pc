@@ -1,0 +1,8 @@
+prefix=/home/laura/ros_ws/install
+
+Name: iimoveit
+Description: Description of iimoveit
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/laura/ros_ws/install/lib 
+Requires: 
