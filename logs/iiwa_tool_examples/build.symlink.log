@@ -1,0 +1,6 @@
+Symlinking /home/laura/ros_ws/devel/lib/iiwa_tool_examples/command_robot_moveit
+Symlinking /home/laura/ros_ws/devel/lib/iiwa_tool_examples/command_robot
+Symlinking /home/laura/ros_ws/devel/lib/iiwa_tool_examples/setting_control_mode
+Symlinking /home/laura/ros_ws/devel/lib/pkgconfig/iiwa_tool_examples.pc
+Symlinking /home/laura/ros_ws/devel/share/iiwa_tool_examples/cmake/iiwa_tool_examplesConfig.cmake
+Symlinking /home/laura/ros_ws/devel/share/iiwa_tool_examples/cmake/iiwa_tool_examplesConfig-version.cmake

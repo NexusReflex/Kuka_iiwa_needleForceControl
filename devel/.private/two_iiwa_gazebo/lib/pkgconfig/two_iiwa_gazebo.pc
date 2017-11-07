@@ -1,0 +1,8 @@
+prefix=/home/laura/ros_ws/devel/.private/two_iiwa_gazebo
+
+Name: two_iiwa_gazebo
+Description: Description of two_iiwa_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/laura/ros_ws/devel/.private/two_iiwa_gazebo/lib 
+Requires: 

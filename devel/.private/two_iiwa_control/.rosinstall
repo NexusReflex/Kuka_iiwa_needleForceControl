@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/laura/ros_ws/devel/.private/two_iiwa_control/setup.sh

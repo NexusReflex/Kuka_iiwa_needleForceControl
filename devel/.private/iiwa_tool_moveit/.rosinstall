@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/laura/ros_ws/devel/.private/iiwa_tool_moveit/setup.sh

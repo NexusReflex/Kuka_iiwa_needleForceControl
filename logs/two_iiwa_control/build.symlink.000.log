@@ -1,0 +1,3 @@
+Symlinking /home/laura/ros_ws/devel/lib/pkgconfig/two_iiwa_control.pc
+Symlinking /home/laura/ros_ws/devel/share/two_iiwa_control/cmake/two_iiwa_controlConfig-version.cmake
+Symlinking /home/laura/ros_ws/devel/share/two_iiwa_control/cmake/two_iiwa_controlConfig.cmake

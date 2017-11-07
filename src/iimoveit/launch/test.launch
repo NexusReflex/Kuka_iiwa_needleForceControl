@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <launch>
-  <!-- <include file="$(find iiwa_moveit)/launch/demo.launch"/> -->
+  <include file="$(find iiwa_moveit)/launch/moveit_planning_execution.launch"/> 
 
   <!-- name of the iiwa to use, useful in case of multiple robots. Every robot is gonna have its nodees/topics under a namespace with the same name. -->
   <arg name="robot_name" default="iiwa"/>

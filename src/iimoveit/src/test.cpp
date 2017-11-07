@@ -305,8 +305,8 @@ int main(int argc, char **argv)
   geometry_msgs::Pose box_pose;
   box_pose.orientation.w = 1.0;
   box_pose.position.x = 0.6;
-  box_pose.position.y = -0.4;
-  box_pose.position.z = 1.2;
+  box_pose.position.y = 0.0;
+  box_pose.position.z = 0.8;
 
   collision_object.primitives.push_back(primitive);
   collision_object.primitive_poses.push_back(box_pose);
@@ -376,18 +376,18 @@ int main(int argc, char **argv)
 //  /* Sleep to allow MoveGroup to recieve and process the detach collision object message */
 //  ros::Duration(1.0).sleep();
 
-//  // Now, let's remove the collision object from the world.
-//  ROS_INFO_NAMED("tutorial", "Remove the object from the world");
-//  std::vector<std::string> object_ids;
-//  object_ids.push_back(collision_object.id);
-//  planning_scene_interface.removeCollisionObjects(object_ids);
+  // Now, let's remove the collision object from the world.
+  ROS_INFO_NAMED("tutorial", "Remove the object from the world");
+  std::vector<std::string> object_ids;
+  object_ids.push_back(collision_object.id);
+  planning_scene_interface.removeCollisionObjects(object_ids);
 
-//  // Show text in Rviz of status
-//  visual_tools.publishText(text_pose, "Object removed", rvt::WHITE, rvt::XLARGE);
-//  visual_tools.trigger();
+  // Show text in Rviz of status
+  visual_tools.publishText(text_pose, "Object removed", rvt::WHITE, rvt::XLARGE);
+  visual_tools.trigger();
 
-//  /* Sleep to give Rviz time to show the object is no longer there.*/
-//  ros::Duration(1.0).sleep();
+  /* Sleep to give Rviz time to show the object is no longer there.*/
+  ros::Duration(1.0).sleep();
 
 
 
