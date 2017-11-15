@@ -1,1 +1,6 @@
-/home/laura/ros_ws/devel/.private/iiwa_msgs/share/common-lisp/ros/iiwa_msgs/msg/_package_JointImpedanceControlMode.lisp
+(cl:in-package iiwa_msgs-msg)
+(cl:export '(JOINT_STIFFNESS-VAL
+          JOINT_STIFFNESS
+          JOINT_DAMPING-VAL
+          JOINT_DAMPING
+))

@@ -1,1 +1,8 @@
-/home/laura/ros_ws/devel/.private/iiwa_ros/lib/pkgconfig/iiwa_ros.pc
+prefix=/home/laura/ros_ws/devel
+
+Name: iiwa_ros
+Description: Description of iiwa_ros
+Version: 1.4.0
+Cflags: -I/home/laura/ros_ws/src/iiwa_stack/iiwa_ros/include
+Libs: -L/home/laura/ros_ws/devel/lib -liiwa_ros
+Requires: iiwa_msgs roscpp

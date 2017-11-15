@@ -1,1 +1,3 @@
-/home/laura/ros_ws/devel/.private/iiwa_msgs/lib/python2.7/dist-packages/iiwa_msgs/srv/__init__.py
+from ._ConfigureSmartServo import *
+from ._SetPathParameters import *
+from ._TimeToDestination import *

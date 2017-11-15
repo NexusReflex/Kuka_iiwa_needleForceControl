@@ -1,8 +1,0 @@
-prefix=/home/laura/ros_ws/devel/.private/iiwa_hw
-
-Name: iiwa_hw
-Description: Description of iiwa_hw
-Version: 1.4.0
-Cflags: -I/home/laura/ros_ws/src/iiwa_stack/iiwa_hw/include
-Libs: -L/home/laura/ros_ws/devel/.private/iiwa_hw/lib -liiwa_hw
-Requires: controller_interface hardware_interface control_toolbox

@@ -1,1 +1,7 @@
-/home/laura/ros_ws/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/_index.js
+
+"use strict";
+
+module.exports = {
+  msg: require('./msg/_index.js'),
+  srv: require('./srv/_index.js')
+};

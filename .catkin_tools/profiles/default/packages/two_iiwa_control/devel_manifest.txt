@@ -1,4 +1,0 @@
-iiwa_stack_examples/two_iiwa/two_iiwa_control
-/home/laura/ros_ws/devel/.private/two_iiwa_control/lib/pkgconfig/two_iiwa_control.pc /home/laura/ros_ws/devel/lib/pkgconfig/two_iiwa_control.pc
-/home/laura/ros_ws/devel/.private/two_iiwa_control/share/two_iiwa_control/cmake/two_iiwa_controlConfig-version.cmake /home/laura/ros_ws/devel/share/two_iiwa_control/cmake/two_iiwa_controlConfig-version.cmake
-/home/laura/ros_ws/devel/.private/two_iiwa_control/share/two_iiwa_control/cmake/two_iiwa_controlConfig.cmake /home/laura/ros_ws/devel/share/two_iiwa_control/cmake/two_iiwa_controlConfig.cmake

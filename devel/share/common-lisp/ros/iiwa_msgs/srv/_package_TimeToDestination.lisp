@@ -1,1 +1,4 @@
-/home/laura/ros_ws/devel/.private/iiwa_msgs/share/common-lisp/ros/iiwa_msgs/srv/_package_TimeToDestination.lisp
+(cl:in-package iiwa_msgs-srv)
+(cl:export '(REMAINING_TIME-VAL
+          REMAINING_TIME
+))

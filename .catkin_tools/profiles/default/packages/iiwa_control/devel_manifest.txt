@@ -1,4 +1,0 @@
-iiwa_stack/iiwa_control
-/home/laura/ros_ws/devel/.private/iiwa_control/lib/pkgconfig/iiwa_control.pc /home/laura/ros_ws/devel/lib/pkgconfig/iiwa_control.pc
-/home/laura/ros_ws/devel/.private/iiwa_control/share/iiwa_control/cmake/iiwa_controlConfig.cmake /home/laura/ros_ws/devel/share/iiwa_control/cmake/iiwa_controlConfig.cmake
-/home/laura/ros_ws/devel/.private/iiwa_control/share/iiwa_control/cmake/iiwa_controlConfig-version.cmake /home/laura/ros_ws/devel/share/iiwa_control/cmake/iiwa_controlConfig-version.cmake

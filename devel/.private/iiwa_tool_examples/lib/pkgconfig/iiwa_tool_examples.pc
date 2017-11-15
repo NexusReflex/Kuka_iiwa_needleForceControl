@@ -1,8 +1,0 @@
-prefix=/home/laura/ros_ws/devel/.private/iiwa_tool_examples
-
-Name: iiwa_tool_examples
-Description: Description of iiwa_tool_examples
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/laura/ros_ws/devel/.private/iiwa_tool_examples/lib 
-Requires: 

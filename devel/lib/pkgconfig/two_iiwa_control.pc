@@ -1,1 +1,8 @@
-/home/laura/ros_ws/devel/.private/two_iiwa_control/lib/pkgconfig/two_iiwa_control.pc
+prefix=/home/laura/ros_ws/devel
+
+Name: two_iiwa_control
+Description: Description of two_iiwa_control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/laura/ros_ws/devel/lib 
+Requires: 

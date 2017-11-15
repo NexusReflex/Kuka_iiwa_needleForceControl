@@ -43,42 +43,42 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/laura/ros_ws/src/iimoveit
+CMAKE_SOURCE_DIR = /home/laura/ros_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/laura/ros_ws/build/iimoveit
+CMAKE_BINARY_DIR = /home/laura/ros_ws/build
 
 # Include any dependencies generated for this target.
-include CMakeFiles/iimoveit_test.dir/depend.make
+include iimoveit/CMakeFiles/iimoveit_test.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/iimoveit_test.dir/progress.make
+include iimoveit/CMakeFiles/iimoveit_test.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/iimoveit_test.dir/flags.make
+include iimoveit/CMakeFiles/iimoveit_test.dir/flags.make
 
-CMakeFiles/iimoveit_test.dir/src/test.cpp.o: CMakeFiles/iimoveit_test.dir/flags.make
-CMakeFiles/iimoveit_test.dir/src/test.cpp.o: /home/laura/ros_ws/src/iimoveit/src/test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/laura/ros_ws/build/iimoveit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/iimoveit_test.dir/src/test.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iimoveit_test.dir/src/test.cpp.o -c /home/laura/ros_ws/src/iimoveit/src/test.cpp
+iimoveit/CMakeFiles/iimoveit_test.dir/src/test.cpp.o: iimoveit/CMakeFiles/iimoveit_test.dir/flags.make
+iimoveit/CMakeFiles/iimoveit_test.dir/src/test.cpp.o: /home/laura/ros_ws/src/iimoveit/src/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/laura/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object iimoveit/CMakeFiles/iimoveit_test.dir/src/test.cpp.o"
+	cd /home/laura/ros_ws/build/iimoveit && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iimoveit_test.dir/src/test.cpp.o -c /home/laura/ros_ws/src/iimoveit/src/test.cpp
 
-CMakeFiles/iimoveit_test.dir/src/test.cpp.i: cmake_force
+iimoveit/CMakeFiles/iimoveit_test.dir/src/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iimoveit_test.dir/src/test.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/laura/ros_ws/src/iimoveit/src/test.cpp > CMakeFiles/iimoveit_test.dir/src/test.cpp.i
+	cd /home/laura/ros_ws/build/iimoveit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/laura/ros_ws/src/iimoveit/src/test.cpp > CMakeFiles/iimoveit_test.dir/src/test.cpp.i
 
-CMakeFiles/iimoveit_test.dir/src/test.cpp.s: cmake_force
+iimoveit/CMakeFiles/iimoveit_test.dir/src/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iimoveit_test.dir/src/test.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/laura/ros_ws/src/iimoveit/src/test.cpp -o CMakeFiles/iimoveit_test.dir/src/test.cpp.s
+	cd /home/laura/ros_ws/build/iimoveit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/laura/ros_ws/src/iimoveit/src/test.cpp -o CMakeFiles/iimoveit_test.dir/src/test.cpp.s
 
-CMakeFiles/iimoveit_test.dir/src/test.cpp.o.requires:
+iimoveit/CMakeFiles/iimoveit_test.dir/src/test.cpp.o.requires:
 
-.PHONY : CMakeFiles/iimoveit_test.dir/src/test.cpp.o.requires
+.PHONY : iimoveit/CMakeFiles/iimoveit_test.dir/src/test.cpp.o.requires
 
-CMakeFiles/iimoveit_test.dir/src/test.cpp.o.provides: CMakeFiles/iimoveit_test.dir/src/test.cpp.o.requires
-	$(MAKE) -f CMakeFiles/iimoveit_test.dir/build.make CMakeFiles/iimoveit_test.dir/src/test.cpp.o.provides.build
-.PHONY : CMakeFiles/iimoveit_test.dir/src/test.cpp.o.provides
+iimoveit/CMakeFiles/iimoveit_test.dir/src/test.cpp.o.provides: iimoveit/CMakeFiles/iimoveit_test.dir/src/test.cpp.o.requires
+	$(MAKE) -f iimoveit/CMakeFiles/iimoveit_test.dir/build.make iimoveit/CMakeFiles/iimoveit_test.dir/src/test.cpp.o.provides.build
+.PHONY : iimoveit/CMakeFiles/iimoveit_test.dir/src/test.cpp.o.provides
 
-CMakeFiles/iimoveit_test.dir/src/test.cpp.o.provides.build: CMakeFiles/iimoveit_test.dir/src/test.cpp.o
+iimoveit/CMakeFiles/iimoveit_test.dir/src/test.cpp.o.provides.build: iimoveit/CMakeFiles/iimoveit_test.dir/src/test.cpp.o
 
 
 # Object files for target iimoveit_test
@@ -88,122 +88,122 @@ iimoveit_test_OBJECTS = \
 # External object files for target iimoveit_test
 iimoveit_test_EXTERNAL_OBJECTS =
 
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: CMakeFiles/iimoveit_test.dir/src/test.cpp.o
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: CMakeFiles/iimoveit_test.dir/build.make
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_common_planning_interface_objects.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_planning_scene_interface.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_move_group_interface.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_warehouse.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libwarehouse_ros.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_pick_place_planner.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_move_group_capabilities_base.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_visual_tools.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/librviz_visual_tools.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/librviz_visual_tools_gui.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/librviz_visual_tools_remote_control.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libtf_conversions.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libkdl_conversions.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_robot_interaction.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_rdf_loader.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_kinematics_plugin_loader.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_robot_model_loader.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_constraint_sampler_manager_loader.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_planning_pipeline.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_trajectory_execution_manager.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_plan_execution.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_planning_scene_monitor.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_collision_plugin_loader.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_lazy_free_space_updater.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_point_containment_filter.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_occupancy_map_monitor.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_pointcloud_octomap_updater_core.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_semantic_world.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libimage_transport.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libclass_loader.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /usr/lib/libPocoFoundation.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libroslib.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/librospack.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libinteractive_markers.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libtf.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libactionlib.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libtf2.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_exceptions.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_background_processing.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_kinematics_base.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_robot_model.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_transforms.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_robot_state.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_robot_trajectory.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_planning_interface.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_collision_detection.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_collision_detection_fcl.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_kinematic_constraints.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_planning_scene.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_constraint_samplers.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_planning_request_adapter.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_profiler.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_trajectory_processing.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_distance_field.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_kinematics_metrics.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_dynamics_solver.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libeigen_conversions.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libgeometric_shapes.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/liboctomap.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/liboctomath.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libkdl_parser.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.0
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/liburdf.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/librosconsole_bridge.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libroscpp.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/librosconsole.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/librandom_numbers.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libsrdfdom.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/librostime.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libcpp_common.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test: CMakeFiles/iimoveit_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/laura/ros_ws/build/iimoveit/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/iimoveit_test.dir/link.txt --verbose=$(VERBOSE)
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: iimoveit/CMakeFiles/iimoveit_test.dir/src/test.cpp.o
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: iimoveit/CMakeFiles/iimoveit_test.dir/build.make
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_common_planning_interface_objects.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_planning_scene_interface.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_move_group_interface.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_warehouse.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libwarehouse_ros.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_pick_place_planner.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_move_group_capabilities_base.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_visual_tools.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/librviz_visual_tools.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/librviz_visual_tools_gui.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/librviz_visual_tools_remote_control.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libtf_conversions.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libkdl_conversions.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_robot_interaction.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_rdf_loader.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_kinematics_plugin_loader.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_robot_model_loader.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_constraint_sampler_manager_loader.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_planning_pipeline.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_trajectory_execution_manager.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_plan_execution.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_planning_scene_monitor.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_collision_plugin_loader.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_lazy_free_space_updater.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_point_containment_filter.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_occupancy_map_monitor.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_pointcloud_octomap_updater_core.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_semantic_world.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libimage_transport.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libclass_loader.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /usr/lib/libPocoFoundation.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libroslib.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/librospack.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libinteractive_markers.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libtf.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libactionlib.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libtf2.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_exceptions.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_background_processing.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_kinematics_base.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_robot_model.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_transforms.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_robot_state.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_robot_trajectory.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_planning_interface.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_collision_detection.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_collision_detection_fcl.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_kinematic_constraints.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_planning_scene.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_constraint_samplers.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_planning_request_adapter.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_profiler.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_trajectory_processing.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_distance_field.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_kinematics_metrics.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libmoveit_dynamics_solver.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libeigen_conversions.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libgeometric_shapes.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/liboctomap.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/liboctomath.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libkdl_parser.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.0
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/liburdf.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/librosconsole_bridge.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libroscpp.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/librosconsole.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/librandom_numbers.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libsrdfdom.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/librostime.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /opt/ros/kinetic/lib/libcpp_common.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test: iimoveit/CMakeFiles/iimoveit_test.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/laura/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test"
+	cd /home/laura/ros_ws/build/iimoveit && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/iimoveit_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/iimoveit_test.dir/build: /home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test
+iimoveit/CMakeFiles/iimoveit_test.dir/build: /home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test
 
-.PHONY : CMakeFiles/iimoveit_test.dir/build
+.PHONY : iimoveit/CMakeFiles/iimoveit_test.dir/build
 
-CMakeFiles/iimoveit_test.dir/requires: CMakeFiles/iimoveit_test.dir/src/test.cpp.o.requires
+iimoveit/CMakeFiles/iimoveit_test.dir/requires: iimoveit/CMakeFiles/iimoveit_test.dir/src/test.cpp.o.requires
 
-.PHONY : CMakeFiles/iimoveit_test.dir/requires
+.PHONY : iimoveit/CMakeFiles/iimoveit_test.dir/requires
 
-CMakeFiles/iimoveit_test.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/iimoveit_test.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/iimoveit_test.dir/clean
+iimoveit/CMakeFiles/iimoveit_test.dir/clean:
+	cd /home/laura/ros_ws/build/iimoveit && $(CMAKE_COMMAND) -P CMakeFiles/iimoveit_test.dir/cmake_clean.cmake
+.PHONY : iimoveit/CMakeFiles/iimoveit_test.dir/clean
 
-CMakeFiles/iimoveit_test.dir/depend:
-	cd /home/laura/ros_ws/build/iimoveit && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/laura/ros_ws/src/iimoveit /home/laura/ros_ws/src/iimoveit /home/laura/ros_ws/build/iimoveit /home/laura/ros_ws/build/iimoveit /home/laura/ros_ws/build/iimoveit/CMakeFiles/iimoveit_test.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/iimoveit_test.dir/depend
+iimoveit/CMakeFiles/iimoveit_test.dir/depend:
+	cd /home/laura/ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/laura/ros_ws/src /home/laura/ros_ws/src/iimoveit /home/laura/ros_ws/build /home/laura/ros_ws/build/iimoveit /home/laura/ros_ws/build/iimoveit/CMakeFiles/iimoveit_test.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : iimoveit/CMakeFiles/iimoveit_test.dir/depend
 

@@ -1,6 +1,0 @@
-devel_space: /home/laura/ros_ws/devel
-install: false
-install_space: /home/laura/ros_ws/install
-profile: default
-source_space: /home/laura/ros_ws/src
-workspace: /home/laura/ros_ws

@@ -1,1 +1,14 @@
-/home/laura/ros_ws/devel/.private/iiwa_msgs/share/common-lisp/ros/iiwa_msgs/msg/_package_CartesianQuantity.lisp
+(cl:in-package iiwa_msgs-msg)
+(cl:export '(X-VAL
+          X
+          Y-VAL
+          Y
+          Z-VAL
+          Z
+          A-VAL
+          A
+          B-VAL
+          B
+          C-VAL
+          C
+))

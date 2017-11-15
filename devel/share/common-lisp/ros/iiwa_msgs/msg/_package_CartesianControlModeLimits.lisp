@@ -1,1 +1,10 @@
-/home/laura/ros_ws/devel/.private/iiwa_msgs/share/common-lisp/ros/iiwa_msgs/msg/_package_CartesianControlModeLimits.lisp
+(cl:in-package iiwa_msgs-msg)
+(cl:export '(MAX_PATH_DEVIATION-VAL
+          MAX_PATH_DEVIATION
+          MAX_CONTROL_FORCE-VAL
+          MAX_CONTROL_FORCE
+          MAX_CONTROL_FORCE_STOP-VAL
+          MAX_CONTROL_FORCE_STOP
+          MAX_CARTESIAN_VELOCITY-VAL
+          MAX_CARTESIAN_VELOCITY
+))

@@ -1,1 +1,8 @@
-/home/laura/ros_ws/devel/.private/two_iiwa_gazebo/lib/pkgconfig/two_iiwa_gazebo.pc
+prefix=/home/laura/ros_ws/devel
+
+Name: two_iiwa_gazebo
+Description: Description of two_iiwa_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/laura/ros_ws/devel/lib 
+Requires: 

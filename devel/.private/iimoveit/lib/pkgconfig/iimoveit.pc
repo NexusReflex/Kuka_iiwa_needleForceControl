@@ -1,8 +1,0 @@
-prefix=/home/laura/ros_ws/devel/.private/iimoveit
-
-Name: iimoveit
-Description: Description of iimoveit
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/laura/ros_ws/devel/.private/iimoveit/lib 
-Requires: 

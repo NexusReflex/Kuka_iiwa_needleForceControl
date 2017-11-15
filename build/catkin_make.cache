@@ -1,0 +1,2 @@
+iimoveit:iiwa_stack/iiwa:iiwa_stack/iiwa_control:iiwa_stack/iiwa_description:iiwa_stack/iiwa_gazebo:iiwa_stack/iiwa_hw:iiwa_stack/iiwa_moveit:iiwa_stack/iiwa_msgs:iiwa_stack/iiwa_ros:iiwa_stack_examples-master/iiwa_tool/iiwa_tool_description:iiwa_stack_examples-master/iiwa_tool/iiwa_tool_examples:iiwa_stack_examples-master/iiwa_tool/iiwa_tool_moveit:iiwa_stack_examples-master/two_iiwa/two_iiwa_control:iiwa_stack_examples-master/two_iiwa/two_iiwa_gazebo
+-DCATKIN_DEVEL_PREFIX=/home/laura/ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/laura/ros_ws/install -G Unix Makefiles

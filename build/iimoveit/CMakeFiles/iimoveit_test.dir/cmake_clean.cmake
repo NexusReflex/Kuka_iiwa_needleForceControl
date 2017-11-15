@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/iimoveit_test.dir/src/test.cpp.o"
-  "/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test.pdb"
-  "/home/laura/ros_ws/devel/.private/iimoveit/lib/iimoveit/iimoveit_test"
+  "/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test.pdb"
+  "/home/laura/ros_ws/devel/lib/iimoveit/iimoveit_test"
 )
 
 # Per-language clean rules from dependency scanning.

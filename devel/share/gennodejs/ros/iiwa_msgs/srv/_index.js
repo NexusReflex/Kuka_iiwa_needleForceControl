@@ -1,1 +1,12 @@
-/home/laura/ros_ws/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/srv/_index.js
+
+"use strict";
+
+let SetPathParameters = require('./SetPathParameters.js')
+let TimeToDestination = require('./TimeToDestination.js')
+let ConfigureSmartServo = require('./ConfigureSmartServo.js')
+
+module.exports = {
+  SetPathParameters: SetPathParameters,
+  TimeToDestination: TimeToDestination,
+  ConfigureSmartServo: ConfigureSmartServo,
+};
