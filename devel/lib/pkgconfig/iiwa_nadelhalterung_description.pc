@@ -1,0 +1,8 @@
+prefix=/home/laura/ros_ws/devel
+
+Name: iiwa_nadelhalterung_description
+Description: Description of iiwa_nadelhalterung_description
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/laura/ros_ws/devel/lib 
+Requires: 

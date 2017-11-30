@@ -67,7 +67,7 @@ set(two_iiwa_gazebo_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(two_iiwa_gazebo_SOURCE_PREFIX /home/laura/ros_ws/src/iiwa_stack_examples-master/two_iiwa/two_iiwa_gazebo)
+  set(two_iiwa_gazebo_SOURCE_PREFIX /home/laura/ros_ws/src/iiwa_stack_examples/two_iiwa/two_iiwa_gazebo)
   set(two_iiwa_gazebo_DEVEL_PREFIX /home/laura/ros_ws/devel)
   set(two_iiwa_gazebo_INSTALL_PREFIX "")
   set(two_iiwa_gazebo_PREFIX ${two_iiwa_gazebo_DEVEL_PREFIX})
@@ -103,7 +103,7 @@ if(NOT " " STREQUAL " ")
         message(FATAL_ERROR "Project 'two_iiwa_gazebo' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  Ask the maintainer 'Salvo Virga <salvo.virga@tum.de>' to fix it.")
       endif()
     else()
-      message(FATAL_ERROR "Project 'two_iiwa_gazebo' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/laura/ros_ws/src/iiwa_stack_examples-master/two_iiwa/two_iiwa_gazebo/${idir}'.  Ask the maintainer 'Salvo Virga <salvo.virga@tum.de>' to fix it.")
+      message(FATAL_ERROR "Project 'two_iiwa_gazebo' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/laura/ros_ws/src/iiwa_stack_examples/two_iiwa/two_iiwa_gazebo/${idir}'.  Ask the maintainer 'Salvo Virga <salvo.virga@tum.de>' to fix it.")
     endif()
     _list_append_unique(two_iiwa_gazebo_INCLUDE_DIRS ${include})
   endforeach()
@@ -122,7 +122,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/laura/ros_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/laura/ros_ws/devel/lib;/home/laura/ros_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

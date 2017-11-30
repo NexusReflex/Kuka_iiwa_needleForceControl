@@ -398,6 +398,24 @@ iiwa_msgs_DIR:PATH=/home/laura/ros_ws/devel/share/iiwa_msgs/cmake
 iiwa_msgs_SOURCE_DIR:STATIC=/home/laura/ros_ws/src/iiwa_stack/iiwa_msgs
 
 //Value Computed by CMake
+iiwa_nadelhalterung_description_BINARY_DIR:STATIC=/home/laura/ros_ws/build/iiwa_stack_nadelhalterung/iiwa_nadelhalterung/iiwa_nadelhalterung_description
+
+//Value Computed by CMake
+iiwa_nadelhalterung_description_SOURCE_DIR:STATIC=/home/laura/ros_ws/src/iiwa_stack_nadelhalterung/iiwa_nadelhalterung/iiwa_nadelhalterung_description
+
+//Value Computed by CMake
+iiwa_nadelhalterung_examples_BINARY_DIR:STATIC=/home/laura/ros_ws/build/iiwa_stack_nadelhalterung/iiwa_nadelhalterung/iiwa_nadelhalterung_examples
+
+//Value Computed by CMake
+iiwa_nadelhalterung_examples_SOURCE_DIR:STATIC=/home/laura/ros_ws/src/iiwa_stack_nadelhalterung/iiwa_nadelhalterung/iiwa_nadelhalterung_examples
+
+//Value Computed by CMake
+iiwa_nadelhalterung_moveit_BINARY_DIR:STATIC=/home/laura/ros_ws/build/iiwa_stack_nadelhalterung/iiwa_nadelhalterung/iiwa_nadelhalterung_moveit
+
+//Value Computed by CMake
+iiwa_nadelhalterung_moveit_SOURCE_DIR:STATIC=/home/laura/ros_ws/src/iiwa_stack_nadelhalterung/iiwa_nadelhalterung/iiwa_nadelhalterung_moveit
+
+//Value Computed by CMake
 iiwa_ros_BINARY_DIR:STATIC=/home/laura/ros_ws/build/iiwa_stack/iiwa_ros
 
 //The directory containing a CMake configuration file for iiwa_ros.
@@ -410,22 +428,22 @@ iiwa_ros_LIB_DEPENDS:STATIC=general;/opt/ros/kinetic/lib/libroscpp.so;general;/u
 iiwa_ros_SOURCE_DIR:STATIC=/home/laura/ros_ws/src/iiwa_stack/iiwa_ros
 
 //Value Computed by CMake
-iiwa_tool_description_BINARY_DIR:STATIC=/home/laura/ros_ws/build/iiwa_stack_examples-master/iiwa_tool/iiwa_tool_description
+iiwa_tool_description_BINARY_DIR:STATIC=/home/laura/ros_ws/build/iiwa_stack_examples/iiwa_tool/iiwa_tool_description
 
 //Value Computed by CMake
-iiwa_tool_description_SOURCE_DIR:STATIC=/home/laura/ros_ws/src/iiwa_stack_examples-master/iiwa_tool/iiwa_tool_description
+iiwa_tool_description_SOURCE_DIR:STATIC=/home/laura/ros_ws/src/iiwa_stack_examples/iiwa_tool/iiwa_tool_description
 
 //Value Computed by CMake
-iiwa_tool_examples_BINARY_DIR:STATIC=/home/laura/ros_ws/build/iiwa_stack_examples-master/iiwa_tool/iiwa_tool_examples
+iiwa_tool_examples_BINARY_DIR:STATIC=/home/laura/ros_ws/build/iiwa_stack_examples/iiwa_tool/iiwa_tool_examples
 
 //Value Computed by CMake
-iiwa_tool_examples_SOURCE_DIR:STATIC=/home/laura/ros_ws/src/iiwa_stack_examples-master/iiwa_tool/iiwa_tool_examples
+iiwa_tool_examples_SOURCE_DIR:STATIC=/home/laura/ros_ws/src/iiwa_stack_examples/iiwa_tool/iiwa_tool_examples
 
 //Value Computed by CMake
-iiwa_tool_moveit_BINARY_DIR:STATIC=/home/laura/ros_ws/build/iiwa_stack_examples-master/iiwa_tool/iiwa_tool_moveit
+iiwa_tool_moveit_BINARY_DIR:STATIC=/home/laura/ros_ws/build/iiwa_stack_examples/iiwa_tool/iiwa_tool_moveit
 
 //Value Computed by CMake
-iiwa_tool_moveit_SOURCE_DIR:STATIC=/home/laura/ros_ws/src/iiwa_stack_examples-master/iiwa_tool/iiwa_tool_moveit
+iiwa_tool_moveit_SOURCE_DIR:STATIC=/home/laura/ros_ws/src/iiwa_stack_examples/iiwa_tool/iiwa_tool_moveit
 
 //The directory containing a CMake configuration file for image_transport.
 image_transport_DIR:PATH=/opt/ros/kinetic/share/image_transport/cmake
@@ -569,16 +587,16 @@ tf_conversions_DIR:PATH=/opt/ros/kinetic/share/tf_conversions/cmake
 trajectory_msgs_DIR:PATH=/opt/ros/kinetic/share/trajectory_msgs/cmake
 
 //Value Computed by CMake
-two_iiwa_control_BINARY_DIR:STATIC=/home/laura/ros_ws/build/iiwa_stack_examples-master/two_iiwa/two_iiwa_control
+two_iiwa_control_BINARY_DIR:STATIC=/home/laura/ros_ws/build/iiwa_stack_examples/two_iiwa/two_iiwa_control
 
 //Value Computed by CMake
-two_iiwa_control_SOURCE_DIR:STATIC=/home/laura/ros_ws/src/iiwa_stack_examples-master/two_iiwa/two_iiwa_control
+two_iiwa_control_SOURCE_DIR:STATIC=/home/laura/ros_ws/src/iiwa_stack_examples/two_iiwa/two_iiwa_control
 
 //Value Computed by CMake
-two_iiwa_gazebo_BINARY_DIR:STATIC=/home/laura/ros_ws/build/iiwa_stack_examples-master/two_iiwa/two_iiwa_gazebo
+two_iiwa_gazebo_BINARY_DIR:STATIC=/home/laura/ros_ws/build/iiwa_stack_examples/two_iiwa/two_iiwa_gazebo
 
 //Value Computed by CMake
-two_iiwa_gazebo_SOURCE_DIR:STATIC=/home/laura/ros_ws/src/iiwa_stack_examples-master/two_iiwa/two_iiwa_gazebo
+two_iiwa_gazebo_SOURCE_DIR:STATIC=/home/laura/ros_ws/src/iiwa_stack_examples/two_iiwa/two_iiwa_gazebo
 
 //The directory containing a CMake configuration file for urdf.
 urdf_DIR:PATH=/opt/ros/kinetic/share/urdf/cmake
@@ -697,7 +715,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=16
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=19
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

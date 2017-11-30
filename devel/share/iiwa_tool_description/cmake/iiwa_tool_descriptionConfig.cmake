@@ -67,7 +67,7 @@ set(iiwa_tool_description_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(iiwa_tool_description_SOURCE_PREFIX /home/laura/ros_ws/src/iiwa_stack_examples-master/iiwa_tool/iiwa_tool_description)
+  set(iiwa_tool_description_SOURCE_PREFIX /home/laura/ros_ws/src/iiwa_stack_examples/iiwa_tool/iiwa_tool_description)
   set(iiwa_tool_description_DEVEL_PREFIX /home/laura/ros_ws/devel)
   set(iiwa_tool_description_INSTALL_PREFIX "")
   set(iiwa_tool_description_PREFIX ${iiwa_tool_description_DEVEL_PREFIX})
@@ -103,7 +103,7 @@ if(NOT " " STREQUAL " ")
         message(FATAL_ERROR "Project 'iiwa_tool_description' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  Ask the maintainer 'Salvo Virga <salvo.virga@tum.de>' to fix it.")
       endif()
     else()
-      message(FATAL_ERROR "Project 'iiwa_tool_description' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/laura/ros_ws/src/iiwa_stack_examples-master/iiwa_tool/iiwa_tool_description/${idir}'.  Ask the maintainer 'Salvo Virga <salvo.virga@tum.de>' to fix it.")
+      message(FATAL_ERROR "Project 'iiwa_tool_description' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/laura/ros_ws/src/iiwa_stack_examples/iiwa_tool/iiwa_tool_description/${idir}'.  Ask the maintainer 'Salvo Virga <salvo.virga@tum.de>' to fix it.")
     endif()
     _list_append_unique(iiwa_tool_description_INCLUDE_DIRS ${include})
   endforeach()
@@ -122,7 +122,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/laura/ros_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/laura/ros_ws/devel/lib;/home/laura/ros_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
