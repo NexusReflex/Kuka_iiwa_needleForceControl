@@ -47,14 +47,14 @@
   <!-- Tool properties -->
   <property name="tool_mass" value="0.0200" />
   <property name="tool_joint_offset" value="0.00 0.00 0.00" />
-  <property name="tool_link_offset" value="-0.015 0.0075 0.58" scale=".001 .001 .001"/> 
+  <property name="tool_link_offset" value="-0.015 0.0075 0.058" /> 
   
   <!--  Here we define a dummy joint between the tip of the iiwa14 and the base of the tool. 
   There is no offset between the two, that means the tool is attached at the robot flange. -->
   <joint name="tool_joint" type="fixed">
     <parent link="iiwa_link_ee" />
     <child link = "tool_link" />
-    <origin xyz="${tool_joint_offset}" rpy="0 0 0" scale=".001 .001 .001" />  
+    <origin xyz="${tool_joint_offset}" rpy="0 0 0" />  
   </joint>
   
   <!-- Here we define the geometry of the tool. We designed the tool ourselves, so we have a mesh file that represents it.   
@@ -71,7 +71,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-	<mesh filename="package://iiwa_nadelhalterung_description/meshes/collision/EEF_plusFlansch.stl" />
+	<mesh filename="package://iiwa_nadelhalterung_description/meshes/visual/EEF_plusFlansch.stl" />
 	<!-- 	<cylinder length="0.1275" radius="0.020"/> -->
       </geometry>
       <material name="Grey"/>
@@ -79,7 +79,7 @@
   </link>
   
   <!--  Here we define another dummy joint. It is placed at the end of the tool, so we can then attach a frame at its TCP for control -->
-  <!-- For registration the dummy joint coincides with the corner of the registration-tool-part of nadelhalterung -> x=-->
+  <!-- For registration the dummy joint coincides with the corner of the registration-tool-part of nadelhalterung -> x= -->
   
    <joint name="tool_tip_joint" type="fixed">
     <parent link="tool_link" />
@@ -88,6 +88,6 @@
   </joint>
   
   <!--  The TCP frame is here defined -->
-  <link name="tool_link_ee"/>
+  <link name="tool_link_ee"/> 
    
 </robot> 
